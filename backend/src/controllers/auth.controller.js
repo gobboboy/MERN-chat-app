@@ -82,7 +82,7 @@ export const logout = (req, res) => {
 
 export const updateProfile = async (req, res) => {
     try {
-        const profilePic = req.body;
+        const { profilePic } = req.body;
         // user can be accessed because this function is called after 
         // the middleware which have the user data
         const userId = req.user._id;
