@@ -38,7 +38,7 @@ const Navbar = () => {
                   <span className="hidden sm:inline">Profile</span>
                 </Link>
 
-                <button className="flex gap-2 items-center hover:btn hover:btn-sm" onClick={logout}>
+                <button className="flex gap-2 items-center hover:btn hover:btn-sm pl-1.5" onClick={logout}>
                   <LogOut className="size-5"/>
                   <span className="hidden sm:inline">Logout</span>
                 </button>
@@ -48,7 +48,7 @@ const Navbar = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
